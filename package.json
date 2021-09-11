@@ -1,15 +1,30 @@
 {
-  "name": "tsconfig-cli",
+  "name": "tsconfig.json-cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Quickly add tsconfig for the framework you are working with using command line ",
+  "main": "src/index.js",
+  "bin":"src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "tsconfig",
+    "tsconfig.json",
+    "typescript",
+    "inquirer",
+    "ts",
+    "js"
+  ],
+  "author": "Aditya Teltia",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^8.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdityaTeltia/tsconfig-cli"
+  },
+  "bugs":{
+    "url": "https://github.com/AdityaTeltia/tsconfig-cli/issues"
   }
 }
